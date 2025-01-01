@@ -1,0 +1,6 @@
+@AngularCrashCourse.Server_HostAddress = http://localhost:5052
+
+GET {{AngularCrashCourse.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
