@@ -1,5 +1,7 @@
+<!--This is the heading of the Webpage-->
 <h4 class="text-md-center m-5">Search flight</h4>
 
+<!--The flight searchbar -->
 <div class="row">
   <div class="col">
     <div class="form-floating">
@@ -42,11 +44,14 @@
       <input class="form-control" type="number" placeholder="1" />
       <div class="input-group-text">Passengers</div>
 
-      <button></button>
+      <button type="submit" class="btn-primary btn">
+        <i class="fas fa-search"></i>
+      </button>
     </div>
   </div>
 
 </div>
+<!--End of searchbar-->
 
 <div *ngFor="let flight of searchResult">
   {{flight}}
